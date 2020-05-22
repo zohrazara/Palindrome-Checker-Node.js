@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>RESULTS OF THE PALINDROME</title>
+        <link rel="stylesheet" href="/public/site.css">
+    </head>
+     <body>
+        <main>
+           <h1> RESULTS OF THE PALINDROME </h1>
+           <article>
+               {{#if results}}
+                    <p class="true">{{inputs}}</p>
+                    <p>INPUT  "{{inputs}}" IS A TRUE PALINDROME </p>
+                {{else}}
+                    <p class="false">{{inputs}}</p>
+                    <p>INPUT "{{inputs}}"DEFINITELY IS A FALSE PALINDROME</p>
+                {{/if}}        
+            </article>
+        <a href="/">PLEASE CHOSE AN ANOTHER INPUT <!DOCTYPE html></a>	
+        </main>
+    </body>
+</html>
